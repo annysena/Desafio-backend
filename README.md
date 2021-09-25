@@ -8,7 +8,7 @@ A aplicação consiste em:
 - Consulta de pessoas através do GET;
 - Consulta de CEP através do GET;
 
-O projeto deverá estar com um ambiente de testes configurado acessando o banco de dados MySQL, deverá usar Maven como gerenciador de dependência, e Java 11 como linguagem.
+O projeto deverá estar com um ambiente de testes configurado acessando o banco de dados MySQL com senha padrão (root, root), deverá usar Maven como gerenciador de dependência, e Java 11 como linguagem.
 
 A entidade Pessoa possui nome, CPF, RG e endereço. Já a entidade Endreço possui CEP, rua, número, bairro, cidade e estado.
 
