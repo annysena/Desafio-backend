@@ -12,7 +12,11 @@ O projeto deverá estar com um ambiente de testes configurado acessando o banco 
 
 A entidade Pessoa possui nome, CPF, RG e endereço. Já a entidade Endreço possui CEP, rua, número, bairro, cidade e estado.
 
-   No Postiman (ou outro ambiente de testes)
+   No Postiman
+   ---
+   
+   Clonando o repositório será possível importar o projeto no Spring Boot e importar o arquivo de testes no Postman
+   
 ---
     Inserção de pessoas e seu respectivo endereço
     POST -> http://localhost:8080/pessoas
