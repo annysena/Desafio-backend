@@ -18,32 +18,5 @@ A entidade Pessoa possui nome, CPF, RG e endereço. Já a entidade Endreço poss
    Clonando o repositório será possível importar o projeto no Spring Boot e importar o arquivo de testes no Postman
    
 ---
-    Inserção de pessoas e seu respectivo endereço
-    POST -> http://localhost:8080/pessoas
-    
-    {
-    "nome": "",
-    "cpf": "",
-    "rg": "", 
-    "enderecos":[
-        {
-        "cep": "",
-        "numero": ""
-        },
-        {
-        "cep": "",
-        "numero": ""
-        }
-     ] 
-  }
-  
----
-    Consultar pessoas
-    GET -> http://localhost:8080/pessoas/todas
-   
----
-    Consultar CEP
-    GET -> http://localhost:8080/cep/02757110
----
 
-OBS: Lembrando sempre que as informações que inserimos pode ser de sua preferência. 
+Lembrando sempre que as informações que inserimos pode ser de sua preferência. 
