@@ -5,6 +5,7 @@ Aplicação feita em Spring Boot 2.3.4 para realizar o cadastro de pessoas e em 
 A aplicação consiste em:
 - Cadastro de pessoas com endereço através do POST;
 - Cadastro de pessoas sem endereço através do POST;
+- Atualizar pessoas e endereço através do PUT;
 - Consulta de pessoas através do GET;
 - Consulta de CEP através do GET;
 
